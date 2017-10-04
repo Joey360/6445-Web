@@ -7,8 +7,3 @@ p {
 html {
   background: linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%);  
 }
-p:hover{
-  height:1000px;
-  width:1000px;
-  font-size: 400px;
-}
