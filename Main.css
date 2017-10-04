@@ -1,6 +1,8 @@
 p {
   background: red;
   color: white;
+  border: 5px solid red;
+  size: 15px;
 }
 html {
   background: linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%);  
@@ -8,4 +10,5 @@ html {
 p:hover{
   height:1000px;
   width:1000px;
+  size:500px;
 }
