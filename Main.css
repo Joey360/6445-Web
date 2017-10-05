@@ -1,3 +1,10 @@
+* {
+padding: 0;
+margin: 0;
+}
+.clearfix {
+clear:both;
+}
 p {
   background: red;
   color: white;
@@ -6,4 +13,35 @@ p {
 }
 html {
   background: linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%);  
+}
+nav {
+  background: orange;
+}
+nav li {
+  float: left;
+  list-style: none;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  text-align: center;
+}
+nav li a {
+  background-color: pink;
+  display: block;
+  padding: 10px 0;
+  width: 130px;
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  width: 608px;
+  margin: auto;
+}
+nav li a:hover {
+  color: orange;
+  font-weight: bolder;
+  background: white;
+}
+nav ol {
+  height: 608px;
+  margin: auto;
 }
