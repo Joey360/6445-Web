@@ -29,7 +29,7 @@ nav li a {
   color: white;
 }
 nav ul {
-  width: 608px;
+  width: 100%;
   margin: auto;
 }
 nav li a:hover {
