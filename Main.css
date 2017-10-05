@@ -1,3 +1,7 @@
+* {
+padding: 0;
+margin: 0;
+}
 .clearfix {
 clear:both;
 }
@@ -29,11 +33,15 @@ nav li a {
   color: white;
 }
 nav ul {
-  width:608px;
+  width: 608px;
   margin: auto;
 }
 nav li a:hover {
   color: orange;
   font-weight: bolder;
   background: white;
+}
+nav ol {
+  height: 608px;
+  margin: auto;
 }
