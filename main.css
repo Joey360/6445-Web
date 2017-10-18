@@ -36,3 +36,11 @@ div
        position: relative;
     /*   padding: 10px;      Shows as a border around the carousel */
    }
+   #footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    background-color: #D55A1F;
+}

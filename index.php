@@ -47,21 +47,20 @@
 					<div id="sponsers" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
 						<?php include 'sponsers/sponsers.html';?>
-						<p class="text-center">Hello this is where the sponser html file will be displayd</p>
 					</div>
 					<div id="team-scouting" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
 						<?php include 'team-scouting/team-scouting.html';?>
-						<p class="text-center">Hello this is where the Team Scouting html file will be displayd</p>
 					</div>
 					<div id="about" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
 						<?php include 'about/about.html';?>
-						<p class="text-center">Hello this is where the About html file will be displayd</p>
 					</div>
 				</div>
 			</div>
-
+			<div id="footer"class="row">
+				<?php include 'footer/footer.html';?>
+			</div>
 
 	</div>
 </body>
