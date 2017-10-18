@@ -16,12 +16,6 @@ LOGS = client['Logs']
 TeamStats = db['Team-Stats']
 username_c = forms["username"].value
 password = forms["password"].value
-
-if username_c == Login.findone({"username": username_c}):
-    all_data = Login.findone({"username": username_c})
-    x = json.loads(all_data, object_hook=lambda d: namedtuple('X', d.keys())(*d.values()))
-    print(x.username, x.password)
-
 gear = None
 gearComments = None
 teamComments = None
