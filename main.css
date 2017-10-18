@@ -44,3 +44,6 @@ div
     margin-top: -3em;
     background-color: #D55A1F;
 }
+.carousel-control .right .left {
+    background-image: none
+}
