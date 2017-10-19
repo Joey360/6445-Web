@@ -35,9 +35,9 @@
               <li class="active col-xs-2 col-xs-offset-1"><a class="text-center" data-toggle="tab" href="#home">Home</a></li>
 							<li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#join">Join</a></li>
 <<<<<<< HEAD
-              <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#sponsers">Sponsers</a></li>
+              <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#sponsors">Sponsors</a></li>
 =======
-              <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#sponsers">Sponsors</a></li>
+              <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#sponsors">Sponsors</a></li>
 >>>>>>> f1160230dba523a11e346dd532ba4c5d1f898ad4
               
 							<li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#team-scouting">Scouting</a></li>
@@ -58,9 +58,9 @@
 						<p class="text-center">Hello this is where the join html file will be displayd</p>
 
 					</div>
-					<div id="sponsers" class="tab-pane fade">
+					<div id="sponsors" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include '/sponsers/sponsers.html';?>
+						<?php include '/sponsors/sponsors.html';?>
 					</div>
 					<div id="team-scouting" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
