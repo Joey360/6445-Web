@@ -53,7 +53,7 @@
 					</div>
 					<div id="join" class="tab-pane fade">
 					<!-- PHP or Include to HTML -->
-						<?php include '/join/join.html';?>
+						<?php include '/join/join.php';?>
 						<p class="text-center">Hello this is where the join html file will be displayd</p>
 
 					</div>
@@ -67,7 +67,7 @@
 					</div>
 					<div id="about" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include '/about/about.html';?>
+						<?php include '/about/about.php';?>
 					</div>
 				</div>
 			</div>
