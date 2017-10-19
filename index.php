@@ -29,7 +29,7 @@
             <ul class="nav nav-tabs">
               <li class="active col-xs-2 col-xs-offset-1"><a class="text-center" data-toggle="tab" href="#home">Home</a></li>
 							<li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#join">Join</a></li>
-              <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#sponsers">Sponsers</a></li>
+              <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#sponsers">Sponsors</a></li>
               
 							<li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#team-scouting">Scouting</a></li>
               <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#about">About</a></li>
