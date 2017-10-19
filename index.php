@@ -13,10 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <!-- Main CSS -->
 		<link rel="stylesheet" type="text/css" href="main.css"/>
-        <link rel="stylesheet" href="footer/footer.css">
+        <link rel="stylesheet" href="/footer/footer.css">
 <<<<<<< HEAD
-         <link rel="stylesheet" type="text/css" href="home/home.css"/>
-         <link rel="stylesheet" type="text/css" href="team-scouting/team-scouting.css"/>
+         <link rel="stylesheet" type="text/css" href="/home/home.css"/>
+         <link rel="stylesheet" type="text/css" href="/team-scouting/team-scouting.css"/>
 =======
 >>>>>>> f1160230dba523a11e346dd532ba4c5d1f898ad4
 	</head>
@@ -50,33 +50,33 @@
 				<div class="tab-content">
 					<div id="home" class="tab-pane fade in active">
 						<!-- PHP or Include to HTML -->
-							<?php include 'home/home.html';?>
+							<?php include '/home/home.html';?>
 					</div>
 					<div id="join" class="tab-pane fade">
 					<!-- PHP or Include to HTML -->
-						<?php include 'join/join.html';?>
+						<?php include '/join/join.html';?>
 						<p class="text-center">Hello this is where the join html file will be displayd</p>
 
 					</div>
 					<div id="sponsers" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include 'sponsers/sponsers.html';?>
+						<?php include '/sponsers/sponsers.html';?>
 					</div>
 					<div id="team-scouting" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include 'team-scouting/team-scouting.html';?>
+						<?php include '/team-scouting/team-scouting.html';?>
 					</div>
 					<div id="about" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include 'about/about.html';?>
+						<?php include '/about/about.html';?>
 					</div>
 				</div>
 			</div>
 	
 <<<<<<< HEAD
-			<?php include ("footer/footer.html");?>
+			<?php include ("/footer/footer.html");?>
 =======
-				<?php include ("footer/footer.html");?>
+				<?php include ("/footer/footer.html");?>
 >>>>>>> f1160230dba523a11e346dd532ba4c5d1f898ad4
 			
 
