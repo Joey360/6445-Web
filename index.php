@@ -14,11 +14,10 @@
     <!-- Main CSS -->
 		<link rel="stylesheet" type="text/css" href="main.css"/>
         <link rel="stylesheet" href="/footer/footer.css">
-<<<<<<< HEAD
+
          <link rel="stylesheet" type="text/css" href="/home/home.css"/>
          <link rel="stylesheet" type="text/css" href="/team-scouting/team-scouting.css"/>
-=======
->>>>>>> f1160230dba523a11e346dd532ba4c5d1f898ad4
+
 	</head>
 
 	<body><div class="container-fluid">
@@ -34,12 +33,12 @@
             <ul class="nav nav-tabs">
               <li class="active col-xs-2 col-xs-offset-1"><a class="text-center" data-toggle="tab" href="#home">Home</a></li>
 							<li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#join">Join</a></li>
-<<<<<<< HEAD
+
               <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#sponsors">Sponsors</a></li>
-=======
+
               <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#sponsors">Sponsors</a></li>
->>>>>>> f1160230dba523a11e346dd532ba4c5d1f898ad4
-              
+
+
 							<li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#team-scouting">Scouting</a></li>
               <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#about">About</a></li>
             </ul>
@@ -64,7 +63,7 @@
 					</div>
 					<div id="team-scouting" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include '/team-scouting/team-scouting.html';?>
+						<?php include '/resourses/resourses.html';?>
 					</div>
 					<div id="about" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
@@ -72,13 +71,11 @@
 					</div>
 				</div>
 			</div>
-	
-<<<<<<< HEAD
+
 			<?php include ("/footer/footer.html");?>
-=======
-				<?php include ("/footer/footer.html");?>
->>>>>>> f1160230dba523a11e346dd532ba4c5d1f898ad4
-			
+
+
+
 
 	</div>
 </body>
