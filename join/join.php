@@ -31,6 +31,7 @@
       <input type="text" name="PhoneNumber" value="" placeholder="Enter Phone#" class="form-control"  required>
     </div>
   </div>
+  <!-- TODO: make these line up with the inputs above -->
       <label for="interest">Interests:</label><br>
       Programming:<input type="checkbox" name="interest" value="Programming" id="cb-Programming"><br>
       Mechanical:<input type="checkbox" name="interest" value="Mechanical" id="cb-Mechanical"><br>
