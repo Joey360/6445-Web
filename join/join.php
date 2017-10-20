@@ -13,7 +13,6 @@
     $Email = $_POST['Email'];
     $PhoneNumber = $_POST['PhoneNumber'];
     $Grade = $_POST['Grade'];
-    $index = -1;
     $interest = $_POST['interests'];
     $to = 'frc6445@gmail.com';
     $subject = 'Someone is interested in joining the team!';
