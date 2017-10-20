@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <?php
+    //please look over, I am not sure if this will work as I have no way of testing it.
       $Name = $_POST['Name'];
       $Email = $_POST['Email'];
       $PhoneNumber = $_POST['PhoneNumber'];
@@ -26,8 +27,8 @@
       'Reply-To: webmaster@example.com' . "\r\n" .
       'X-Mailer: PHP/' . phpversion();
       // won't mail without server email :(
-      if($Name.isset()){
-        $interests = array($interest_P, $interest_M, $interest_C, $interest_S, $interest_P, $interest_U);
+      if(isset($Name)){
+        $interests = array($interest_P, $interest_M, $interest_C, $interest_S, $interest_P, $interest_U); //should return true or false
         foreach ($interests as &$value) {
           $index += 1;
           if ($value) {
@@ -48,7 +49,7 @@
         }
         $Message = "Hello, " . $Name . " Is interested in joining the team!" . " You can contact them at " . $PhoneNumber . " and " . $Email;
         $Message .= "They are interested in" . $interest . "and are in " . $Grade;
-        mail($to, $subject, $message, $headers);
+        mail($to, $subject, $Message, $headers);
       }
      ?>
     <!-- Main CSS -->
