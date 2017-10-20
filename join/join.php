@@ -14,7 +14,7 @@
     $PhoneNumber = $_POST['PhoneNumber'];
     $Grade = $_POST['Grade'];
     $index = -1;
-    $interest = "";
+    $interest = $_POST['interests'];
     $to = 'frc6445@gmail.com';
     $subject = 'Someone is interested in joining the team!';
     $headers = 'From: webmaster@example.com' . "\r\n" .
@@ -22,10 +22,10 @@
         'X-Mailer: PHP/' . phpversion();
     // won't mail without server email :(
     if(isset($Name)){
-        $Message = "Hello, " . $Name . " Is interested in joining the team!" . " You can contact them at " . $PhoneNumber . " and " . $Email;
-        $Message .= "They are interested in " . $interest . "and are in " . $Grade . " Grade.";
+        $Message = "Hello, " . $Name . " Is interested in joining the team!" . " You can contact them at " . $PhoneNumber . " and at " . $Email;
+        $Message .= ", they are interested in " . $interest . " and are in the " . $Grade . " Grade.";
         mail($to, $subject, $Message, $headers);
-        echo($Message);
+        echo("This is what the message would look like if the mail server was setup: " . $Message);
     }
     ?>
     <!-- Main CSS -->
