@@ -23,7 +23,7 @@
     if(isset($Name)){
         $Message = "Hello, " . $Name . " Is interested in joining the team!" . " You can contact them at " . $PhoneNumber . " and at " . $Email;
         $Message .= ", they are interested in " . $interest . " and are in the " . $Grade . " Grade.";
-        mail($to, $subject, $Message, $headers);
+      //  mail($to, $subject, $Message, $headers);
         echo("This is what the message would look like if the mail server was setup: " . $Message);
     }
     ?>
