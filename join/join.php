@@ -46,8 +46,8 @@
             }
           }
         }
-        $Message = "Hello, " . $Name . " Is interested in joining the team" . " , You can contact them at " . $PhoneNumber . " and " . $Email;
-        $Message .= "They are interested in " . $interest . "and are in " . $Grade;
+        $Message = "Hello, " . $Name . " Is interested in joining the team!" . " You can contact them at " . $PhoneNumber . " and " . $Email;
+        $Message .= "They are interested in" . $interest . "and are in " . $Grade;
         mail($to, $subject, $message, $headers);
       }
      ?>
