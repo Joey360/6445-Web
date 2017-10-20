@@ -18,7 +18,6 @@
       $interest_P = $_POST['Photography/Media'];
       $interest_U = $_POST['Undecided'];
       $Grade = $_POST['Grade'];
-      $interests = array($interest_P, $interest_M, $interest_C, $interest_S, $interest_P, $interest_U);
       $index = -1;
       $interest;
       $to = 'frc6445@gmail.com';
@@ -26,28 +25,29 @@
       $headers = 'From: webmaster@example.com' . "\r\n" .
       'Reply-To: webmaster@example.com' . "\r\n" .
       'X-Mailer: PHP/' . phpversion();
-      foreach ($interests as &$value) {
-        $index += 1;
-        if ($value) {
-          if ($index == 0) {
-            $interest = " Programming ";
-          } elseif ($index == 1) {
-            $interest += " Mechanical ";
-          } elseif ($index == 2) {
-            $interest += " CAD ";
-          } elseif ($index == 3) {
-            $interest += " Support ";
-          } elseif ($index == 4) {
-            $interest += " Photography/Media ";
-          } elseif ($index == 5) {
-            $interest += " Undecided ";
+      if($Name.isset()){
+        $interests = array($interest_P, $interest_M, $interest_C, $interest_S, $interest_P, $interest_U);
+        foreach ($interests as &$value) {
+          $index += 1;
+          if ($value) {
+            if ($index == 0) {
+              $interest = " Programming ";
+            } elseif ($index == 1) {
+              $interest += " Mechanical ";
+            } elseif ($index == 2) {
+              $interest += " CAD ";
+            } elseif ($index == 3) {
+              $interest += " Support ";
+            } elseif ($index == 4) {
+              $interest += " Photography/Media ";
+            } elseif ($index == 5) {
+              $interest += " Undecided ";
+            }
           }
         }
-      }
-      if($Name.isset()){
         $Message = "Hello, " . $Name . " Is interested in joining the team" . " , You can contact them at " . $PhoneNumber . " and " . $Email;
         $Message .= "They are interested in " . $interest . "and are in " . $Grade;
-        mail();
+        mail($to, $subject, $message, $headers);
       }
      ?>
     <!-- Main CSS -->
