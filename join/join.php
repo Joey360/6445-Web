@@ -25,6 +25,7 @@
       $headers = 'From: webmaster@example.com' . "\r\n" .
       'Reply-To: webmaster@example.com' . "\r\n" .
       'X-Mailer: PHP/' . phpversion();
+      // won't mail without server email :(
       if($Name.isset()){
         $interests = array($interest_P, $interest_M, $interest_C, $interest_S, $interest_P, $interest_U);
         foreach ($interests as &$value) {
