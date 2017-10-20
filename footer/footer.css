@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-.unchanged{
-	color: #fff;
-
-=======
 .color-white{
 	color: #fff;
->>>>>>> fe8737ea3695dc8b49e9ace3f4eb3ff8f4e8b908
 }
 .footer-distributed{
 	background-color: #292c2f;
@@ -35,31 +29,19 @@
 /* The company logo */
 
 .footer-distributed h3{
-<<<<<<< HEAD
-	color:  #fff ;
-=======
 	color:  #ffffff;
->>>>>>> fe8737ea3695dc8b49e9ace3f4eb3ff8f4e8b908
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
 }
 
 .footer-distributed h3 span{
-<<<<<<< HEAD
-	color:  #ff6117;
-=======
-	color:  #5383d3;
->>>>>>> fe8737ea3695dc8b49e9ace3f4eb3ff8f4e8b908
+	color:  #D55A21;
 }
 
 /* Footer links */
 
 .footer-distributed .footer-links{
-<<<<<<< HEAD
-	color:  #ff6117;
-=======
 	color:  #ffffff;
->>>>>>> fe8737ea3695dc8b49e9ace3f4eb3ff8f4e8b908
 	margin: 20px 0 12px;
 	padding: 0;
 }
@@ -81,11 +63,7 @@
 /* Footer Center */
 
 .footer-distributed .footer-center{
-<<<<<<< HEAD
-	width: 35%;
-=======
 
->>>>>>> fe8737ea3695dc8b49e9ace3f4eb3ff8f4e8b908
 }
 
 .footer-distributed .footer-center i{
@@ -121,11 +99,7 @@
 }
 
 .footer-distributed .footer-center p a{
-<<<<<<< HEAD
-	color:  #ff6117 ;
-=======
 	color:  #5383d3;
->>>>>>> fe8737ea3695dc8b49e9ace3f4eb3ff8f4e8b908
 	text-decoration: none;;
 }
 
@@ -146,11 +120,7 @@
 
 .footer-distributed .footer-company-about span{
 	display: block;
-<<<<<<< HEAD
-	color:  #fff;
-=======
 	color:  #ffffff;
->>>>>>> fe8737ea3695dc8b49e9ace3f4eb3ff8f4e8b908
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
