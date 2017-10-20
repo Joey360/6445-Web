@@ -10,16 +10,25 @@
     <!-- Main CSS -->
 		<link rel="stylesheet" type="text/css" href="/includes/main.css"/>
   </head>
-  <?php $Name = "Name"; ?>
+  <?php  ?>
   <body>
     <img  src="images/logo.jpg" alt="blank" class="img-responsive">
-    <div id="Form-Join">
-    <form>
-      <label for="Name">Name:</label>
-      <input type="text" id="Name"></br>>
-      <label for="email"></label>
-      <input type="email" id="email">
-      <label for="interest">Interests</label>
+    <form class="form-horizontal">
+      <div class="form-group">
+      <label for="Name" class="control-label col-sm-2">Name:</label>
+      <div class="col-sm-10">
+      <input type="text" class="form-control" id="Name" placeholder="Enter Name" required autofocus></br>
+    </div>
+  </div>
+    <div class="form-group">
+      <label for="email" class="control-label col-sm-2">Email:</label>
+      <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
+    </div>
+</div>
+      <label for="PhoneNumber">PhoneNumber:</label>
+      <input type="text" name="PhoneNumber" value="" placeholder="Enter Phone#" required>
+      <label for="interest">Interests:</label>
       <input type="checkbox" name="interest" value="Programming" id="cb-Programming">
       <input type="checkbox" name="interest" value="Mechanical" id="cb-Mechanical">
       <input type="checkbox" name="interest" value="CAD" id="cb-CAD">
@@ -30,7 +39,5 @@
       <input type="checkbox" name="Grade-10" value="10">
       <input type="checkbox" name="Grade-11" value="11">
       <input type="checkbox" name="Grade-12" value="12">
-
-
   </body>
 </html>
