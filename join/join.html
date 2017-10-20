@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Main CSS -->
+		<link rel="stylesheet" type="text/css" href="/includes/main.css"/>
+  </head>
+  <body>
+    <img  src="images/logo.jpg" alt="" class="img-responsive">
+    <form class="form-horizontal">
+      <div class="form-group">
+      <label for="Name" class="control-label col-sm-2">Name:</label>
+      <div class="col-sm-10">
+      <input type="text" class="form-control" id="Name" placeholder="Enter Name" required autofocus></br>
+    </div>
+  </div>
+    <div class="form-group">
+      <label for="email" class="control-label col-sm-2">Email:</label>
+      <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
+    </div>
+</div>
+<div class="form-group">
+      <label for="PhoneNumber" class="control-label col-sm-2">PhoneNumber:</label>
+      <div class="col-sm-10">
+      <input type="text" name="PhoneNumber" value="" placeholder="Enter Phone#" class="form-control"  required>
+    </div>
+  </div>
+      <label for="interest">Interests:</label><br>
+      Programming:<input type="checkbox" name="interest" value="Programming" id="cb-Programming"><br>
+      Mechanical:<input type="checkbox" name="interest" value="Mechanical" id="cb-Mechanical"><br>
+      CAD:<input type="checkbox" name="interest" value="CAD" id="cb-CAD"><br>
+      Support:<input type="checkbox" name="interest" value="Business" id="cb-Support"><br>
+      Photography/Media:<input type="checkbox" name="interest" value="Photography/Video" id="cb-Photography/Media"><br>
+      Undecided:<input type="checkbox" name="unknown interest" value="0" id="cb-Undecided"><br>
+      <label for="Grade">Grade:</label>
+      9th:<input type="radio" name="Grade" value="9"><br>
+      10th:<input type="radio" name="Grade" value="10"><br>
+      11th:<input type="radio" name="Grade" value="11"><br>
+      12th:<input type="radio" name="Grade" value="12"><br>
+  </body>
+</html>
