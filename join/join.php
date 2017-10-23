@@ -1,5 +1,10 @@
     <?php
     //please look over, I am not sure if this will work as I have no way of testing it.
+    $Name = null;
+    $Email = null;
+    $PhoneNumber = null;
+    $Grade = null;
+    $interest = null;
     $Name = $_POST['Name'];
     $Email = $_POST['Email'];
     $PhoneNumber = $_POST['PhoneNumber'];
