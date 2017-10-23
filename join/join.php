@@ -23,32 +23,23 @@
         echo("This is what the message would look like if the mail server was setup: " . $Message);
     }
     ?>
-<img  src="images/logo.jpg" alt="" class="img-responsive">
 <form class="form-horizontal" method = "post">
     <div class="form-group">
         <label for="Name" class="control-label col-sm-2">Name:</label>
-        <div class="col-sm-10">
             <input type="text" name="Name" class="form-control" id="Name" placeholder="Enter Name" required autofocus></br>
-        </div>
     </div>
     <div class="form-group">
         <label for="email" class="control-label col-sm-2">Email:</label>
-        <div class="col-sm-10">
             <input type="email" name="Email" class="form-control" id="email" placeholder="Enter Email" required>
-        </div>
     </div>
     <div class="form-group">
         <label for="PhoneNumber" name="PhoneNumber" class="control-label col-sm-2">PhoneNumber:</label>
-        <div class="col-sm-10">
             <input type="text" name="PhoneNumber" value="" placeholder="Enter Phone#" class="form-control"  required>
-        </div>
     </div>
     <div class="form-group">
     <label for="interests" class="control-label col-sm-2">Interests:</label><br>
-        <div class="col-sm-10">
     <input type="text" name="interests" class="form-control" placeholder=" Please enter: your choices of: Programming, CAD, Mechanical, Support, Photography, Or Undecided">
-            </div>
-        </div>
+    </div>
     <!-- TODO: make these line up with the inputs above -->
     <label for="Grade">Grade:</label>
     9th:<input type="radio" name="Grade" value="9th" ><br>
