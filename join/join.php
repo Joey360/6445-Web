@@ -47,7 +47,7 @@
     9th:<input type="radio" name="Grade" value="9th" >
     10th:<input type="radio" name="Grade" value="10th" >
     11th:<input type="radio" name="Grade" value="11th">
-    12th:<input type="radio" name="Grade" value="12th" >
+    12th:<input type="radio" name="Grade" value="12th" > <br>
     <button type="submit" class="btn btn-default">Submit</button>
 </form>
 </div>
