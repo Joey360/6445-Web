@@ -10,6 +10,6 @@
 
 }
 .carousel-control.left, .carousel-control.right{
-    background: none !important;
+    background: #4d4d4d !important;
     filter: progid:none !important;>
 }
