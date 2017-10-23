@@ -13,10 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <!-- Main CSS -->
 		<link rel="stylesheet" type="text/css" href="main.css"/>
-        <link rel="stylesheet" href="footer/footer.css">
+    <link rel="stylesheet" href="footer/footer.css">
 
-         <link rel="stylesheet" type="text/css" href="home/home.css"/>
-         <link rel="stylesheet" type="text/css" href="team-scouting/team-scouting.css"/>
+    <link rel="stylesheet" type="text/css" href="home/home.css"/>
+    <link rel="stylesheet" type="text/css" href="team-scouting/team-scouting.css"/>
 
 	</head>
 
