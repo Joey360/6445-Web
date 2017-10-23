@@ -12,10 +12,10 @@
         <?php include 'robot/robot.html';?>
       </div>
       <div id="instructors" class="tab-pane fade">
-        <?php include 'join/join.php';?>
+        <?php include 'instructors/instructors.html';?>
       </div>
       <div id="members" class="tab-pane fade">
-        <?php include 'join/join.php';?>
+        <?php include 'members/members.html';?>
       </div>
     </div>
   </div>
