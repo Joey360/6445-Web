@@ -13,10 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <!-- Main CSS -->
 		<link rel="stylesheet" type="text/css" href="main.css"/>
-        <link rel="stylesheet" href="/footer/footer.css">
+        <link rel="stylesheet" href="footer/footer.css">
 
-         <link rel="stylesheet" type="text/css" href="/home/home.css"/>
-         <link rel="stylesheet" type="text/css" href="/team-scouting/team-scouting.css"/>
+         <link rel="stylesheet" type="text/css" href="home/home.css"/>
+         <link rel="stylesheet" type="text/css" href="team-scouting/team-scouting.css"/>
 
 	</head>
 
@@ -44,30 +44,28 @@
 				<div class="tab-content">
 					<div id="home" class="tab-pane fade in active">
 						<!-- PHP or Include to HTML -->
-							<?php include '/home/home.php';?>
+							<?php include 'home/home.php';?>
 					</div>
 					<div id="join" class="tab-pane fade">
 					<!-- PHP or Include to HTML -->
-						<?php include '/join/join.php';?>
-						<p class="text-center">Hello this is where the join html file will be displayd</p>
-
+						<?php include 'join/join.php';?>
 					</div>
 					<div id="sponsors" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include '/sponsors/sponsors.html';?>
+						<?php include 'sponsors/sponsors.html';?>
 					</div>
 					<div id="team-scouting" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include '/resourses/resourses.html';?>
+						<?php include 'resourses/resourses.html';?>
 					</div>
 					<div id="about" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include '/about/about.php';?>
+						<?php include 'about/about.php';?>
 					</div>
 				</div>
 			</div>
 
-			<?php include ("/footer/footer.html");?>
+			<?php include ("footer/footer.html");?>
 
 
 

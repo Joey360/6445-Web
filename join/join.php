@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width = device-width, initial-scale=1">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <?php
     //please look over, I am not sure if this will work as I have no way of testing it.
     $Name = $_POST['Name'];
@@ -27,10 +18,6 @@
         echo("This is what the message would look like if the mail server was setup: " . $Message);
     }
     ?>
-    <!-- Main CSS -->
-    <link rel="stylesheet" type="text/css" href="/includes/main.css"/>
-</head>
-<body>
 <img  src="images/logo.jpg" alt="" class="img-responsive">
 <form class="form-horizontal" method = "post">
     <div class="form-group">
@@ -65,5 +52,3 @@
     12th:<input type="radio" name="Grade" value="12th" ><br>
     <button type="submit" class="btn btn-default">Submit</button>
 </form>
-</body>
-</html>
