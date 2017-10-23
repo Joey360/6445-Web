@@ -43,11 +43,11 @@
     <input type="text" name="interests" class="form-control" placeholder=" Please enter: your choices of: Programming, CAD, Mechanical, Support, Photography, Or Undecided">
     </div>
     <!-- TODO: make these line up with the inputs above -->
-    <label for="Grade">Grade:</label>
-    9th:<input type="radio" name="Grade" value="9th" ><br>
-    10th:<input type="radio" name="Grade" value="10th" ><br>
-    11th:<input type="radio" name="Grade" value="11th"><br>
-    12th:<input type="radio" name="Grade" value="12th" ><br>
+    <label for="Grade">Grade:</label><br>
+    9th:<input type="radio" name="Grade" value="9th" >
+    10th:<input type="radio" name="Grade" value="10th" >
+    11th:<input type="radio" name="Grade" value="11th">
+    12th:<input type="radio" name="Grade" value="12th" >
     <button type="submit" class="btn btn-default">Submit</button>
 </form>
 </div>
