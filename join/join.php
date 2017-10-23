@@ -27,11 +27,11 @@
   <div class="col-xs-10 col-xs-offset-1">
 <form class="form-horizontal" method = "post">
     <div class="form-group">
-        <label for="Name" class="control-label col-sm-2">Name:</label>
+        <label for="Name" class="control-label ">Name:</label>
             <input type="text" name="Name" class="form-control" id="Name" placeholder="Enter Name" required autofocus></br>
     </div>
     <div class="form-group">
-        <label for="email" class="control-label col-sm-2">Email:</label>
+        <label for="email" class="control-label">Email:</label>
             <input type="email" name="Email" class="form-control" id="email" placeholder="Enter Email" required>
     </div>
     <div class="form-group">
@@ -39,7 +39,7 @@
             <input type="text" name="PhoneNumber" value="" placeholder="Enter Phone#" class="form-control"  required>
     </div>
     <div class="form-group">
-    <label for="interests" class="control-label col-sm-2">Interests:</label><br>
+    <label for="interests" class="control-label">Interests:</label><br>
     <input type="text" name="interests" class="form-control" placeholder=" Please enter: your choices of: Programming, CAD, Mechanical, Support, Photography, Or Undecided">
     </div>
     <!-- TODO: make these line up with the inputs above -->
