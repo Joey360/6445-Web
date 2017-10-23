@@ -23,6 +23,8 @@
         echo("This is what the message would look like if the mail server was setup: " . $Message);
     }
     ?>
+<div class="container">
+  <div class="col-xs-10 col-xs-offset-1">
 <form class="form-horizontal" method = "post">
     <div class="form-group">
         <label for="Name" class="control-label col-sm-2">Name:</label>
@@ -48,3 +50,5 @@
     12th:<input type="radio" name="Grade" value="12th" ><br>
     <button type="submit" class="btn btn-default">Submit</button>
 </form>
+</div>
+</div>
