@@ -35,7 +35,7 @@
             <input type="email" name="Email" class="form-control" id="email" placeholder="Enter Email" required>
     </div>
     <div class="form-group">
-        <label for="PhoneNumber" name="PhoneNumber" class="control-label col-sm-2">PhoneNumber:</label>
+        <label for="PhoneNumber" name="PhoneNumber" class="control-label ">PhoneNumber:</label>
             <input type="text" name="PhoneNumber" value="" placeholder="Enter Phone#" class="form-control"  required>
     </div>
     <div class="form-group">
