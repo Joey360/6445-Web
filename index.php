@@ -17,7 +17,6 @@
     <link rel="stylesheet" type="text/css" href="home/home.css"/>
     <link rel="stylesheet" type="text/css" href="team-scouting/team-scouting.css"/>
 
-  	<link rel="stylesheet" type="text/css" href="about/instructors/instructors.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
@@ -34,7 +33,7 @@
             <ul class="nav nav-tabs">
               <li class="active col-xs-2 col-xs-offset-1"><a class="text-center" data-toggle="tab" href="#home">Home</a></li>
 							<li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#join">Join</a></li>
-							<li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#team-scouting">Scouting</a></li>
+							<li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#resources">Resources</a></li>
               <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#sponsors">Sponsors</a></li>
               <li class="col-xs-2"><a class="text-center" data-toggle="tab" href="#about">About</a></li>
             </ul>
@@ -55,9 +54,9 @@
 						<!-- PHP or Include to HTML -->
 						<?php include 'sponsors/sponsors.html';?>
 					</div>
-					<div id="team-scouting" class="tab-pane fade">
+					<div id="resources" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include 'resourses/resourses.html';?>
+						<?php include 'resources/resources.html';?>
 					</div>
 					<div id="about" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
