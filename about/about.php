@@ -9,13 +9,13 @@
     </ul>
     <div class="tab-content">
       <div id="robot" class="tab-pane fade in active">
-        <?php include 'robot/robot..html';?>
+        <?php include 'robot/robot.html';?>
       </div>
       <div id="instructors" class="tab-pane fade">
-        <?php include '/join/join.php';?>
+        <?php include 'join/join.php';?>
       </div>
       <div id="members" class="tab-pane fade">
-        <?php include '/join/join.php';?>
+        <?php include 'join/join.php';?>
       </div>
     </div>
   </div>
