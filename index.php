@@ -39,7 +39,7 @@
               <li class=" hidden-xs col-sm-2 "><a class="text-center" data-toggle="tab" href="#about">About</a></li>
             </ul>
 						<ul class="nav nav-pills nav-stacked">
-              <li class="active col-xs-2 col-xs-offset-1 hidden-sm hidden-md hidden-lg hidden-xl"><a class="text-center" data-toggle="tab" href="#home">Home</a></li>
+              <li class="active col-xs-12 col-xs-offset-1 hidden-sm hidden-md hidden-lg hidden-xl"><a class="text-center" data-toggle="tab" href="#home">Home</a></li>
 							<li class=" col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl"><a class="text-center" data-toggle="tab" href="#join">Join</a></li>
 							<li class=" col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl"><a class="text-center" data-toggle="tab" href="#resources">Resources</a></li>
               <li class=" col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl"><a class="text-center" data-toggle="tab" href="#sponsors">Sponsors</a></li>
