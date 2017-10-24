@@ -17,8 +17,11 @@
         'X-Mailer: PHP/' . phpversion();
     // won't mail without server email :(
     if(isset($Name)){
-        $Message = "Hello, " . $Name . " Is interested in joining the team!" . " You can contact them at " . $PhoneNumber . " and at " . $Email;
-        $Message .= ", they are interested in " . $interest . " and is in the " . $Grade . " Grade.";
+        $Message = "We have an interested new member please look over details and contact them accordingly";
+        $Message = "Name: , " . $Name ;
+        $Message = "Contact : Phone "$PhoneNumber . "    Email " . $Email;
+        $Message .= "Interests : " . $interest;
+        $Message .=" Grade : " . $Grade;
       //  mail($to, $subject, $Message, $headers);
         // echo("This is what the message would look like if the mail server was setup: " . $Message);
     }
@@ -32,7 +35,7 @@
     </div>
     <div class="form-group">
         <label for="email" class="control-label">Email:</label>
-            <input type="email" name="Email" class="form-control" id="email" placeholder="Enter Email" required>
+        <input type="email" name="Email" class="form-control" id="email" placeholder="Enter Email" required>
     </div>
     <div class="form-group">
         <label for="PhoneNumber" name="PhoneNumber" class="control-label ">PhoneNumber:</label>
@@ -43,12 +46,14 @@
     <input type="text" name="interests" class="form-control" placeholder=" Please enter: your choices of: Programming, CAD, Mechanical, Support, Photography, Or Undecided">
     </div>
     <!-- TODO: make these line up with the inputs above -->
+    <div class="form-group">
     <label for="Grade">Grade:</label><br>
     9th:<input type="radio" name="Grade" value="9th" >
     10th:<input type="radio" name="Grade" value="10th" >
     11th:<input type="radio" name="Grade" value="11th">
     12th:<input type="radio" name="Grade" value="12th" > <br>
     <button type="submit" class="btn btn-default">Submit</button>
+  </div>
 </form>
 </div>
 </div>
