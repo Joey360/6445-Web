@@ -45,23 +45,23 @@
 				<div class="tab-content">
 					<div id="home" class="tab-pane fade in active">
 						<!-- PHP or Include to HTML -->
-							<?php include 'home/home.php';?>
+							<?php include ('home/home.php');?>
 					</div>
 					<div id="join" class="tab-pane fade">
 					<!-- PHP or Include to HTML -->
-						<?php include 'join/join.php';?>
+						<?php include ('join/join.php');?>
 					</div>
 					<div id="sponsors" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include 'sponsors/sponsors.html';?>
+						<?php include ('sponsors/sponsors.html');?>
 					</div>
 					<div id="resources" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include 'resources/resources.html';?>
+						<?php include ('resources/resources.html');?>
 					</div>
 					<div id="about" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include 'about/about.php';?>
+						<?php include ('about/about.php');?>
 					</div>
 				</div>
 			</div>
