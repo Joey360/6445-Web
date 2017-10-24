@@ -37,7 +37,7 @@
           </div>
 								<div class="row row-spacing">
                   <div class="col-xs-12">
-                    <?php include ("/calander/calander.html");?>
+                    <?php include ("calander/calander.html");?>
                   </div>
                 </div>
       </div>
