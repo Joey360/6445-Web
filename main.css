@@ -36,3 +36,13 @@ div
        position: relative;
     /*   padding: 10px;      Shows as a border around the carousel */
    }
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+background-color:#E45E00;
+color:#FFF;
+}
+.nav-pills > li > a:hover{
+  background-color:#E45E00 !important;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}

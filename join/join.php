@@ -19,7 +19,7 @@
     if(isset($Name)){
         $Message = "We have an interested new member please look over details and contact them accordingly";
         $Message = "Name: , " . $Name ;
-        $Message = "Contact : Phone "$PhoneNumber . "    Email " . $Email;
+        $Message = "Contact : Phone ". $PhoneNumber . "    Email " . $Email;
         $Message .= "Interests : " . $interest;
         $Message .=" Grade : " . $Grade;
       //  mail($to, $subject, $Message, $headers);
