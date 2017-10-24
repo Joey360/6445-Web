@@ -17,3 +17,19 @@
 {
     background: #4d4d4d !important;
 }
+@media (max-width: @screen-xs) {
+  car-height{
+    height: 300px;
+  }
+}
+
+@media (max-width: @screen-sm) {
+  car-height{
+    height: 400px;
+  }
+}
+@media (max-width: @screen-xl) {
+  car-height{
+    height: 500px;
+  }
+}

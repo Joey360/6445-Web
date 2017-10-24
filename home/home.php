@@ -12,15 +12,15 @@
 							    <!-- Wrapper for slides -->
 							    <div class="carousel-inner">
 							      <div class="item active">
-							        <img src="includes/images/img1.jpg" alt="_Image _Blank_" style="height: 500px;" class=" center-block">
+							        <img src="includes/images/img1.jpg" alt="_Image _Blank_" class=" center-block car-height">
 							      </div>
 
 							      <div class="item">
-							        <img src="includes/images/img2.jpg" alt="_Image _Blank_" style="height: 500px;" class=" center-block">
+							        <img src="includes/images/img2.jpg" alt="_Image _Blank_" class=" center-block car-height">
 							      </div>
 
 							      <div class="item">
-							        <img src="includes/images/img3.jpg" alt="_Image _Blank_" style="height: 500px;" class=" center-block">
+							        <img src="includes/images/img3.jpg" alt="_Image _Blank_" class=" center-block car-height">
 							      </div>
 							    </div>
 
