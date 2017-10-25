@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+.caption {
+	margin-top: -20px;
+}
+
+.contentdiv {
+	background-color: #F3FAF7;
+	border-radius: 6px;
+	margin-top: 50px;
+}
+
+p {
+	color: #000;
+}
+
+.panel .panel-heading {
+	background-color: #FF8021;
+	color: #fff;
+}
+
+.panel .signature-box {
+	background-color: #b4cbe4;
+	color: #000;
+}
+
+.phead {
+	color: #000;
+}
+
+.subhead {
+	color: #000;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+th {
+	text-align: center;
+}
+
+.thumbdesc {
+	color: #807F7F;
+	margin-bottom: -3px;
+	margin-left: -3px;
+}
+
+.thumblabel {
+	align: left;
+	margin-left: -5px;
+}
+
+a.anchor {
+
+	padding-top: 60px;
+	margin-top: -60px;
+
+}
+
+/* Extra small devices (phones, less than 768px) */
+		/* iPhones may be (min-width: 320px) */
+		@media (max-width: 767px) {
+			#thumbnail{
+				width: 100%;
+			}
+		}
+		/* Small devices (tablets, 768px and up) */
+		@media (min-width: 768px) and (max-width: 991px) {
+			#thumbnail{
+				width: 100%;
+			}
+		}
+		/* Medium devices (desktops, 992px and up) */
+		@media (min-width: 992px) and (max-width: 1199px) {
+			#thumbnail {
+				width: 40%;
+			}
+		}
+		/* Large devices (large desktops, 1200px and up) */
+		@media (min-width: 1200px) {
+			#thumbnail {
+				width: 40%;
+			}
+		}
+
+.title{
+	color: #FF6E00;
+	text-align: center;
+}
+
+.wrap {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 8px;
+}

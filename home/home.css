@@ -1,0 +1,19 @@
+/* CSS Document */
+
+.row-spacing{
+ padding-top:60px;
+}
+.slide-show{
+  background-color: #4d4d4d;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+.carousel-control.left, .carousel-control.right{
+    background: #4d4d4d !important;
+    filter: progid:none !important;>
+}
+#myCarousel
+{
+    background: #4d4d4d !important;
+}
