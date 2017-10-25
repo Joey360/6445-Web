@@ -13,7 +13,7 @@
     <!-- Main CSS -->
 		<link rel="stylesheet" type="text/css" href="main.css"/>
     <link rel="stylesheet" href="footer/footer.css">
-
+  	<!-- Subpage  CSS -->
     <link rel="stylesheet" type="text/css" href="home/home.css"/>
     <link rel="stylesheet" type="text/css" href="team-scouting/team-scouting.css"/>
 
