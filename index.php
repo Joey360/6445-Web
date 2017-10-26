@@ -75,7 +75,4 @@
 			<?php include ("footer/footer.html");?>
 </div>
 </body>
-
-
-
 <html>
