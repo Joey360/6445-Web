@@ -3,7 +3,7 @@
   <div class="row row-spacing">
   <div class="">
     <ul class="nav nav-pills">
-      <li style="float:center" class="active"><a data-toggle="tab" href="#robot">Robot</a></li>
+      <li style="float:center" class="active"><a data-toggle="tab" href="#robot">Robots</a></li>
       <li style="float:center"><a data-toggle="tab" href="#mentors">Mentors</a></li>
       <li style="float:center"><a data-toggle="tab" href="#members">Members</a></li>
     </ul>

@@ -28,6 +28,11 @@
     ?>
 <div class="container">
   <div class="col-xs-10 col-xs-offset-1">
+    <div class="col-sm-offset-1">
+        <h3>If You Want To Join</h3>
+          <p>If You are interested in the CTEC FRC Robotics program then please fill out the forum bellow and you will receive an e-mail as soon as our team leaders review it. The email will give you meeting times and locations, we are excited that you are interested in the team.</br>
+          </p>
+      </div>
 <form class="form-horizontal" method = "post">
     <div class="form-group">
         <label for="Name" class="control-label ">Name:</label>
@@ -45,7 +50,6 @@
     <label for="interests" class="control-label">Interests:</label><br>
     <input type="text" name="interests" class="form-control" placeholder=" Please enter: your choices of: Programming, CAD, Mechanical, Support, Photography, Or Undecided">
     </div>
-    <!-- TODO: make these line up with the inputs above -->
     <div class="form-group">
     <label for="Grade">Grade:</label><br>
     9th:<input type="radio" name="Grade" value="9th" >
