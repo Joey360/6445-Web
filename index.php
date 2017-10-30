@@ -21,7 +21,8 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
-	<body><div class="container-fluid">
+	<body>
+		<div class="container-fluid">
 			<div id="navHeader" class = "row">
 				<div class="row">
 					<div class="col-xs-4 col-sm-5"></div>
