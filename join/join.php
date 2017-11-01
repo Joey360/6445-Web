@@ -28,11 +28,9 @@
     ?>
 <div class="container">
   <div class="col-xs-10 col-xs-offset-1">
-    <div class="">
         <h3>If You Want To Join</h3>
           <p>If You are interested in the CTEC FRC Robotics program then please fill out the forum bellow and you will receive an e-mail as soon as our team leaders review it. The email will give you meeting times and locations, we are excited that you are interested in the team.</br>
           </p>
-      </div>
 <form class="form-horizontal" method = "post">
     <div class="form-group">
         <label for="Name" class="control-label ">Name:</label>
