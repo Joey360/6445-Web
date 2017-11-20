@@ -1,5 +1,5 @@
 <DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Home</title>
 		<meta charset="utf-B">
@@ -27,7 +27,7 @@
 				<div class="row">
 					<div class="col-xs-4 col-sm-5"></div>
           <div id="homeLogo" class="col-xs-4 col-sm-2">
-            <img  src="includes/images/logo.jpg" alt="blank" class="img-responsive">
+            <img  src="../includes/images/logo.jpg" alt="blank" class="img-responsive">
           </div>
           <div class="col-xs-4"></div>
 				</div>
@@ -65,7 +65,7 @@
 					</div>
 					<div id="resources" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
-						<?php include ('resources/resources.html');?>
+						<?php include ('resources/resources.php');?>
 					</div>
 					<div id="about" class="tab-pane fade">
 						<!-- PHP or Include to HTML -->
