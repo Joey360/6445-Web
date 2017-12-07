@@ -22,7 +22,7 @@
         $Message = "Contact : Phone ". $PhoneNumber . "    Email " . $Email;
         $Message .= "Interests : " . $interest;
         $Message .=" Grade : " . $Grade;
-      //  mail($to, $subject, $Message, $headers);
+      mail($to, $subject, $Message, $headers);
         // echo("This is what the message would look like if the mail server was setup: " . $Message);
     }
     ?>
