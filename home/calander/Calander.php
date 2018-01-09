@@ -1,19 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 652267
- * Date: 1/8/2018
- * Time: 4:28 PM
- */
 ini_set("include_path", '/home/team6445/php:' . ini_get("include_path") );
 require_once 'Calendar/Month/Weekdays.php';
-
 $Month = new Calendar_Month_Weekdays(date('Y'), date('n'));
-
 $Month->build();
-
+echo "<div id="no-more-tables">";
 echo "<table>\n";
-
+echo ($Month->fetch());
 while ($Day = $Month->fetch()) {
     if ($Day->isFirst()) {
         echo "<tr>\n";
@@ -29,6 +21,4 @@ while ($Day = $Month->fetch()) {
         echo "</tr>\n";
     }
 }
-
-echo "</table>\n";
 ?>
