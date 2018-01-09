@@ -6,7 +6,6 @@
  * Time: 4:28 PM
  */
 ini_set("include_path", '/home/team6445/php:' . ini_get("include_path") );
-<?php
 require_once 'Calendar/Month/Weekdays.php';
 
 $Month = new Calendar_Month_Weekdays(date('Y'), date('n'));
